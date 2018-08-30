@@ -12,6 +12,6 @@
 
     module.exports = {
         plugins: {
-            'remove-google-fonts': {},
+            'postcss-remove-google-fonts': {},
         },
     };

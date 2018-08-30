@@ -1,7 +1,7 @@
 const postcss = require('postcss')
 const plugin = require('./')
 
-it('test remove google font import', () => {
+it('should remove google font import', () => {
   let input = '@import url(\'https://fonts.googleapis.com/css\');'
 
   return postcss([plugin()]).process(input).then(result => {
@@ -10,7 +10,7 @@ it('test remove google font import', () => {
   })
 })
 
-it('test keep other rules untouched', () => {
+it('should keep other rules untouched', () => {
   let input = 'body { margin: 0; }'
 
   return postcss([plugin()]).process(input).then(result => {
