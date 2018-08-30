@@ -1,6 +1,8 @@
 # PostCSS Remove Google Fonts
 
-[PostCSS] plugin to remove google font imports.
+[![npm version](https://badge.fury.io/js/postcss-remove-google-fonts.svg)](https://badge.fury.io/js/postcss-remove-google-fonts)
+
+[PostCSS](https://postcss.org/) plugin to remove google font imports.
 
 ## Installation
 
