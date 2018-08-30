@@ -2,3 +2,12 @@ language: node_js
 cache: yarn
 node_js:
   - node
+
+deploy:
+  provider: npm
+  email: louis@systemli.org
+  api_key:
+    secure: ETnTWDXshLmeSB3yQt8ga2KIoDIZcvJpMQUfPt6co+lpla62cReUPc4tNhk6RNcUJuqd4OJbehKFqnQwdakfncYEeepIbe46uhyW00bMYF8TpKse/GS1XLk7fWbp/FBHjm0+WO8ZZ54A/X+JbpSwTrAAZzv9qiNMvNUgTn/ihJHsbeqx9UiaN1Etj1NMXZxHDalgdmaMjQeHl0KZgtbGdfIEdr+2TXnePhdc6y1Mznbb2U6jpGCpsvg5hAO7Ai11Z6cpdSuDK1HtutmjC6a8sCK7UaMrZPCn7cMKgvxji051NrHEGYQGGHW2/mA/58VE63oKEZZZtIhOKxi4NobqyaA6HgYhgDcoyvRT1pF6Ivegarp99bmsBoPpgcRIMSpIYIAZAZ4gAVFoPEePeKaxOpW/zDOnUmrYvvfRdMdWBSKoeLbbNvcriO4Y2pQ7qc74cHsCpcFvpY/oS4+KcQZUKMPB4Pokn1ryrmKcxgkIxTolmwde6o9rOUUxeP4qJfTCDkECwwKTjPHB8d8ao/3glGSlFwA6ff5gLV+PFIqg9oGbWrrdqe5cLjuBzK7WG/2Yu8APdJeC7Aw9/ON6zB2M5OkjexyM0mMz77yJVah9yR4iv/B/29d6yH6Dy+vFSKS2rfxdPz6mxC8pSCEfBMlzBCI6qqQe7CwHn+Nm7LIgMgY=
+  on:
+    tags: true
+    repo: 0x46616c6b/postcss-remove-google-fonts
