@@ -21,21 +21,21 @@
   },
   "url": "https://github.com/0x46616c6b/postcss-remove-google-fonts",
   "dependencies": {
-    "postcss": "^7.0.2"
+    "postcss": "^7.0.5"
   },
   "devDependencies": {
-    "eslint": "^5.4.0",
-    "eslint-config-logux": "^25.0.1",
+    "eslint": "^5.9.0",
+    "eslint-config-logux": "^26.0.0",
     "eslint-config-postcss": "^3.0.6",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jest": "^21.22.0",
-    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-jest": "^22.0.0",
+    "eslint-plugin-node": "^8.0.0",
     "eslint-plugin-prefer-let": "^1.0.1",
-    "eslint-plugin-promise": "^4.0.0",
+    "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-security": "^1.4.0",
     "eslint-plugin-standard": "^4.0.0",
-    "jest": "^23.5.0"
+    "jest": "^23.6.0"
   },
   "eslintConfig": {
     "extends": "eslint-config-postcss",
