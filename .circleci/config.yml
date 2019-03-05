@@ -16,7 +16,7 @@ jobs:
             - ./node_modules
       - run:
           name: Runnging linter
-           command: ./node_modules/.bin/eslint index.js
+          command: ./node_modules/.bin/eslint index.js
       - run:
           name: Running tests
           command: npm test
