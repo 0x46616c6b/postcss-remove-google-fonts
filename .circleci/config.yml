@@ -6,12 +6,12 @@ jobs:
     steps:
       - checkout
       - restore_cache:
-          key: npm-cache-{{ checksum "package.json" }}
+          key: yarn-cache-{{ checksum "package.json" }}
       - run:
           name: Install dependencies
-          command: npm install
+          command: yarn install
       - save_cache:
-          key: npm-cache-{{ checksum "package.json" }}
+          key: yarn-cache-{{ checksum "package.json" }}
           paths:
             - ./node_modules
       - run:
@@ -19,4 +19,4 @@ jobs:
           command: ./node_modules/.bin/eslint index.js
       - run:
           name: Running tests
-          command: npm test
+          command: yarn test
