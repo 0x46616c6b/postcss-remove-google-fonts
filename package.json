@@ -4,7 +4,9 @@
   "description": "PostCSS plugin to remove Google Fonts",
   "main": "index.js",
   "scripts": {
-    "test": "jest && eslint *.js"
+    "test": "jest",
+    "lint": "eslint *.js",
+    "prepublish": "yarn run lint && yarn run test"
   },
   "keywords": [
     "postcss",
