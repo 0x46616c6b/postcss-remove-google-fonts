@@ -1,6 +1,6 @@
 # PostCSS Remove Google Fonts
 
-[![CircleCI](https://circleci.com/gh/0x46616c6b/postcss-remove-google-fonts.svg?style=svg)](https://circleci.com/gh/0x46616c6b/postcss-remove-google-fonts) [![npm version](https://badge.fury.io/js/postcss-remove-google-fonts.svg)](https://badge.fury.io/js/postcss-remove-google-fonts)
+![Continuous Integration](https://github.com/0x46616c6b/postcss-remove-google-fonts/workflows/Continuous%20Integration/badge.svg) [![npm version](https://badge.fury.io/js/postcss-remove-google-fonts.svg)](https://badge.fury.io/js/postcss-remove-google-fonts)
 
 [PostCSS](https://postcss.org/) plugin to remove google font imports.
 
