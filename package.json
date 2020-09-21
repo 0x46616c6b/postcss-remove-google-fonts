@@ -1,12 +1,11 @@
 {
   "name": "postcss-remove-google-fonts",
-  "version": "1.1.5",
   "description": "PostCSS plugin to remove Google Fonts",
   "main": "index.js",
   "scripts": {
     "test": "jest",
     "lint": "eslint *.js",
-    "prepublish": "yarn run lint && yarn run test"
+    "prepublish": "npm run lint && npm run test"
   },
   "keywords": [
     "postcss",
