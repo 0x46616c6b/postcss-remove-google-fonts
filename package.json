@@ -23,7 +23,7 @@
   },
   "url": "https://github.com/0x46616c6b/postcss-remove-google-fonts",
   "dependencies": {
-    "postcss": "^7.0.14"
+    "postcss": "^8.0.6"
   },
   "devDependencies": {
     "@logux/eslint-config": "^27.0.0",
