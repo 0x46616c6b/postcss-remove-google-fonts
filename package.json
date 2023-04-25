@@ -1,7 +1,7 @@
 {
   "name": "postcss-remove-google-fonts",
   "description": "PostCSS plugin to remove Google Fonts",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "scripts": {
     "test": "jest --coverage && eslint ."
   },
