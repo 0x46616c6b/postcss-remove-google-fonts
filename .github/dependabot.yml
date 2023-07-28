@@ -16,3 +16,7 @@ updates:
       day: "friday"
       time: "09:00"
       timezone: "Europe/Berlin"
+    groups:
+      dev-dependencies:
+        patterns:
+          - "*"
