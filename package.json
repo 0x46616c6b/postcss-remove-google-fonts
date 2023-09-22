@@ -18,14 +18,14 @@
   },
   "url": "https://github.com/0x46616c6b/postcss-remove-google-fonts",
   "peerDependencies": {
-    "postcss": "^8.4.29"
+    "postcss": "^8.4.30"
   },
   "devDependencies": {
     "clean-publish": "^4.0.0",
     "eslint": "^8.49.0",
-    "eslint-plugin-jest": "^27.0.1",
+    "eslint-plugin-jest": "^27.4.0",
     "jest": "^29.7.0",
-    "postcss": "^8.4.29"
+    "postcss": "^8.4.30"
   },
   "eslintConfig": {
     "parserOptions": {
